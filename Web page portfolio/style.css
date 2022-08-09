@@ -1,0 +1,259 @@
+
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=PT+Serif&family=Poppins:wght@400;500;600&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*NAV BAR MENU*/
+
+header{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 2px 35px 0 rgba(165, 166, 172, 0.37);
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    
+    
+}
+
+nav{
+    display: flex;
+
+}
+
+.logo{
+   font-size: 25px;
+   margin-right: 40px;
+   cursor: pointer;
+}
+
+.menu_nav{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    list-style: none;
+}
+
+
+li{
+    display:flex; 
+    text-align: center;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: rgb(102, 106, 106);
+}
+
+a:hover{
+    color: blueviolet;
+    background-color: rgba(250, 250, 250, 0.838);
+    width: 100px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.buttons{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-left: 150px;
+    width: 200px;
+    height: 40px;
+}
+
+button{
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-first{
+    background-color: rgb(246, 249, 252);
+}
+.btn-second{
+    color: white;
+    background-color: black;
+}
+
+/*FIRST SECTION*/
+#primero{
+    margin-top: 10%;
+    align-content: center;
+}
+
+.textoss{
+    
+    align-items: center;
+}
+
+#ache-uno{
+    font-family:'PT Serif', serif;
+}
+
+#primero .textoss p{
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10%;
+}
+
+/*SECOND SECTION*/
+
+section{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-texts{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+h3{
+    color: grey;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    margin:3%;
+   
+    letter-spacing: 1px;
+}
+
+#texto{
+    margin-top: 200px;
+    margin-bottom: 0;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'PT Serif', serif;
+}
+#second{
+    color: rgb(124, 20, 158);
+    font-family: 'PT Serif', serif;
+}
+/*END FIRST SECTION*/
+
+/*SECOND SECTION*/
+
+.sc-second{
+    display: flex;
+    justify-content: space-evenly;
+    height: 95vh;
+    
+}
+
+.container{
+    width: 30%;
+    height: 80%;
+    background: rgba( 254, 254, 254, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 25px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.sc-second .container h1{
+    
+    font-family: 'PT Serif', serif;
+    font-size: 30px;
+    margin: 40px 0 0 50px;
+    
+}
+
+.sc-second .container p{
+    margin: 40px 0 0 50px;
+    font-family:'PT Serif', serif; 
+    font-weight: bold;
+}
+
+.inside{
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    margin-top: 45px;
+    height: 63%;
+    border-radius: 0 0 20px 20px;
+}
+
+.inside-contenedor{
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    height: 63%;
+    margin-top: 100px;
+    border-radius: 0 0 20px 20px;
+}
+
+.con-con{
+    width: 50%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    transition: opacity 300ms;
+    background: rgba( 255, 255, 255, 0.6 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.con-con:hover{
+    background: rgba( 139, 3, 171, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+}
+
+#contenedor-uno{
+    background-image: url(media/sin-fondo.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#contenedor{
+    background-image: url(media/trading.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+
+button{
+    font-weight: bold;
+}
